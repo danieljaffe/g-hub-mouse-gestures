@@ -24,14 +24,16 @@ The default settings below will be for the navigation gestures for in browsers
 
  
 -- The button your gestures are mapped to G1 = 1, G2 = 2 etc..
-gestureButtonNumber = 4;
+-- Default: 4
+gestureButtonNumber = 6;
 
 -- The button navigation actions are mapped to G1 = 1, G2 = 2 etc..
 navigationButtonNumber = 5;
 
 -- The minimal horizontal/vertical distance your mouse needs to be moved for the gesture to recognize in pixels
-minimalHorizontalMovement = 200;
-minimalVerticalMovement = 200;
+-- Default 200
+minimalHorizontalMovement = 125;
+minimalVerticalMovement = 125;
 
 -- Default values for 
 horizontalStartingPosistion = 0;
@@ -46,7 +48,7 @@ delay = 20
 missionControlEnabled = true
 applicationWindowsEnabled = true
 moveBetweenSpacesEnabled = true
-browserNavigationEnabled = true
+browserNavigationEnabled = false
 
 -- Toggles debugging messages
 debuggingEnabeld = false
